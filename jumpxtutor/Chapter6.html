@@ -1,0 +1,395 @@
+
+<!DOCTYPE HTML>
+<html lang="" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>编辑器的指令系统 · GitBook</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.3">
+        
+        
+        
+    
+    <link rel="stylesheet" href="gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-search/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="Share1.html" />
+    
+    
+    <link rel="prev" href="Chapter5.html" />
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="Type to search" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="./">
+            
+                <a href="./">
+            
+                    
+                    前言
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" data-path="Chapter1.html">
+            
+                <a href="Chapter1.html">
+            
+                    
+                    软件界面及基础功能
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3" data-path="Chapter2.html">
+            
+                <a href="Chapter2.html">
+            
+                    
+                    网格渲染相关参数
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4" data-path="Chapter3.html">
+            
+                <a href="Chapter3.html">
+            
+                    
+                    骨骼动画相关参数
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5" data-path="Chapter4.html">
+            
+                <a href="Chapter4.html">
+            
+                    
+                    粒子与尾迹参数
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6" data-path="Chapter5.html">
+            
+                <a href="Chapter5.html">
+            
+                    
+                    3ds Max相关内容
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter active" data-level="1.7" data-path="Chapter6.html">
+            
+                <a href="Chapter6.html">
+            
+                    
+                    编辑器的指令系统
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.8" data-path="Share1.html">
+            
+                <a href="Share1.html">
+            
+                    
+                    来自火焰库拉关于ini的分享
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9" data-path="Share2.html">
+            
+                <a href="Share2.html">
+            
+                    
+                    来自火焰库拉关于粒子的分享
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            Published with GitBook
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href="." >编辑器的指令系统</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <h1 id="&#x7F16;&#x8F91;&#x5668;&#x7684;&#x6307;&#x4EE4;&#x7CFB;&#x7EDF;">&#x7F16;&#x8F91;&#x5668;&#x7684;&#x6307;&#x4EE4;&#x7CFB;&#x7EDF;</h1>
+<p>&#x5200;&#x5251;&#x795E;&#x57DF;&#x7B2C;&#x4E09;&#x5B63;&#x7684;System Call&#x662F;&#x4E0D;&#x662F;&#x5F88;&#x5E05;&#x5440;&#xFF01;&#xFF08;&#x6B64;&#x7AE0;&#x8282;&#x4EC5;&#x4F9B;&#x5A31;&#x4E50;&#xFF09;</p>
+<h2 id="&#x6307;&#x4EE4;&#x7684;&#x8F93;&#x5165;">&#x6307;&#x4EE4;&#x7684;&#x8F93;&#x5165;</h2>
+<p>&#x70B9;&#x51FB;&#x7F16;&#x8F91;&#x5668;&#x7684;&#x9884;&#x89C8;&#x7A97;&#x53E3;&#x4EE5;&#x8C03;&#x6574;&#x7126;&#x70B9;&#xFF0C;&#x7136;&#x540E;&#x5207;&#x6362;&#x82F1;&#x6587;&#x8F93;&#x5165;&#x6CD5;&#x5373;&#x53EF;&#x8F93;&#x5165;&#x6307;&#x4EE4;&#xFF0C;&#x56DE;&#x8F66;&#x5373;&#x53EF;&#x6267;&#x884C;&#xFF01;</p>
+<center>
+<img src="assets/cmd_input.png" width="50%">
+</center>
+
+<p>&#x5982;&#x679C;&#x6307;&#x4EE4;&#x8F93;&#x5165;&#x9519;&#x8BEF;&#x4E0D;&#x4F1A;&#x6709;&#x4EFB;&#x4F55;&#x63D0;&#x793A;&#xFF0C;&#x4E3A;&#x4E86;&#x8FD8;&#x539F;&#x539F;&#x8457;&#xFF08;<del>&#x5176;&#x5B9E;&#x5C31;&#x662F;&#x61D2;</del>&#xFF09;&#x3002;</p>
+<h2 id="&#x6307;&#x4EE4;&#x80FD;&#x505A;&#x4EC0;&#x4E48;">&#x6307;&#x4EE4;&#x80FD;&#x505A;&#x4EC0;&#x4E48;</h2>
+<p>&#x7F16;&#x8F91;&#x5143;&#x7D20;&#xFF0C;&#x4FDD;&#x5B58;&#x6587;&#x4EF6;&#xFF0C;&#x4E3A;&#x591A;&#x6570;&#x73B0;&#x6709;&#x7684;&#x7F16;&#x8F91;&#x64CD;&#x4F5C;&#x63D0;&#x4F9B;&#x4E86;&#x53E6;&#x4E00;&#x79CD;&#x8C03;&#x7528;&#x65B9;&#x6CD5;&#xFF08;<del>&#x5F53;&#x7136;&#x4E0D;&#x7528;&#x6307;&#x671B;&#x89E3;&#x653E;&#x9F20;&#x6807;&#x53EA;&#x7528;&#x952E;&#x76D8;&#x64CD;&#x4F5C;&#x4E86;&#xFF0C;&#x56E0;&#x4E3A;&#x8FD9;&#x4E9B;&#x6307;&#x4EE4;&#x5B9E;&#x5728;&#x662F;&#x592A;&#x592A;&#x592A;&#x592A;TMD&#x957F;&#x4E86;</del>&#xFF09;&#x3002;</p>
+<h2 id="&#x6307;&#x4EE4;&#x7684;&#x683C;&#x5F0F;">&#x6307;&#x4EE4;&#x7684;&#x683C;&#x5F0F;</h2>
+<p>&#x6240;&#x6709;&#x7684;&#x6307;&#x4EE4;&#x90FD;&#x4EE5;<code>system call</code>&#x4E3A;&#x524D;&#x7F00;&#xFF0C;&#x4E4B;&#x540E;&#x624D;&#x662F;&#x6307;&#x4EE4;&#x672C;&#x4F53;&#x3002;&#x76EE;&#x524D;&#x7684;&#x6240;&#x6709;&#x6307;&#x4EE4;&#x5982;&#x4E0B;&#x6240;&#x793A;&#x3002;</p>
+<ul>
+<li><p><code>system call change field attribute XXX</code></p>
+<ul>
+<li>&#x8C03;&#x6574;&#x90E8;&#x5206;&#x5143;&#x7D20;&#x7684;&#x663E;&#x793A;&#x72B6;&#x6001;&#x3002;&#x5176;&#x4E2D;&#x7684;<code>XXX</code>&#x53EF;&#x4EE5;&#x4E3A; <code>axis</code>&#x3001;<code>bone</code>&#x3001;<code>frame</code>&#x3001;<code>normal</code>&#x3001;<code>texture</code>&#x3001;<code>animation</code>&#x4E2D;&#x7684;&#x4E00;&#x4E2A;&#xFF0C;&#x5206;&#x522B;&#x5BF9;&#x5E94;&#x7F16;&#x8F91;&#x5668;&#x7684;&#x201D;&#x663E;&#x793A;&#x8F74;&#x7EBF;&#x201C;&#x3001;&#x201C;&#x663E;&#x793A;&#x9AA8;&#x9ABC;&#x201D;&#x3001;&#x201C;&#x663E;&#x793A;&#x7EBF;&#x6846;&#x201D;&#x3001;&#x201C;&#x663E;&#x793A;&#x6CD5;&#x7EBF;&#x201D;&#x3001;&#x201C;&#x663E;&#x793A;&#x8D34;&#x56FE;&#x201D;&#x3001;&#x201C;&#x64AD;&#x653E;&#x52A8;&#x753B;&#x201D;&#x516D;&#x4E2A;&#x6309;&#x94AE;&#x3002;</li>
+</ul>
+</li>
+<li><p><code>system call enlight element object id XXX</code></p>
+<ul>
+<li>&#x9009;&#x4E2D;&#x540D;&#x79F0;&#x4E3A;<code>XXX</code>&#x7684;&#x5143;&#x7D20;&#xFF0C;&#x7F51;&#x683C;&#x3001;&#x9AA8;&#x9ABC;&#x3001;&#x6750;&#x8D28;&#x3001;&#x8D34;&#x56FE;&#x3001;&#x52A8;&#x753B;&#x3001;&#x7C92;&#x5B50;&#x3001;&#x5C3E;&#x8FF9;&#x5747;&#x53EF;&#x9009;&#x4E2D;&#x3002;&#x540D;&#x79F0;&#x4E2D;&#x5305;&#x542B;&#x7A7A;&#x683C;&#x7684;&#x5143;&#x7D20;&#x65E0;&#x6CD5;&#x9009;&#x4E2D;&#x3002;</li>
+</ul>
+</li>
+<li><p><code>system call generate preserved gate zero XXX</code></p>
+<ul>
+<li>&#x6253;&#x5F00;&#x56DB;&#x57FA;&#x4F6C;&#x7684;&#x8FDC;&#x53E4;&#x6539;&#x6A21;&#x8865;&#x4E01;&#x5236;&#x4F5C;&#x6559;&#x7A0B;&#xFF0C;&#x5176;&#x4E2D;<code>XXX</code>&#x53EF;&#x4EE5;&#x4E3A;<code>one</code>&#x3001;<code>two</code>&#x3001;<code>three</code>&#x3001;<code>four</code>&#x4E2D;&#x7684;&#x4E00;&#x4E2A;&#x3002;</li>
+</ul>
+</li>
+<li><p><code>system call generate XXX element form element discharge</code></p>
+<ul>
+<li>&#x521B;&#x5EFA;&#x4E00;&#x4E2A;&#x65B0;&#x7684;&#x5143;&#x7D20;&#x3002;&#x5176;&#x4E2D;&#x7684;<code>XXX</code>&#x53EF;&#x4EE5;&#x4E3A;<code>material</code>&#x3001;<code>texture</code>&#x3001;<code>animation</code>&#x4E2D;&#x7684;&#x4E00;&#x4E2A;&#xFF0C;&#x5206;&#x522B;&#x5BF9;&#x5E94;&#x4E8E;&#x6750;&#x8D28;&#x3001;&#x8D34;&#x56FE;&#x3001;&#x52A8;&#x753B;&#x3002;</li>
+</ul>
+</li>
+<li><p><code>system call manipulate element object id XXX YYY</code></p>
+<ul>
+<li><p>&#x5BF9;&#x4E00;&#x4E2A;&#x5143;&#x7D20;&#x8FDB;&#x884C;&#x76F8;&#x5E94;&#x7684;&#x64CD;&#x4F5C;&#xFF0C;<code>XXX</code>&#x5373;&#x4E3A;&#x5143;&#x7D20;&#x7684;&#x540D;&#x79F0;&#xFF0C;&#x7F51;&#x683C;&#x3001;&#x9AA8;&#x9ABC;&#x3001;&#x6750;&#x8D28;&#x3001;&#x8D34;&#x56FE;&#x3001;&#x52A8;&#x753B;&#x3001;&#x7C92;&#x5B50;&#x3001;&#x5C3E;&#x8FF9;&#x5747;&#x53EF;&#x3002;<code>YYY</code>&#x4E3A;&#x8FDB;&#x884C;&#x7684;&#x64CD;&#x4F5C;&#xFF0C;&#x53EF;&#x4EE5;&#x53D6;&#x5982;&#x4E0B;&#x7684;&#x51E0;&#x4E2A;&#x503C;&#xFF1A;</p>
+</li>
+<li><p><code>inspect</code>&#xFF1A;&#x7F16;&#x8F91;&#x5143;&#x7D20;&#x7684;&#x53C2;&#x6570;&#x3002;</p>
+</li>
+<li><code>burst</code>&#xFF1A;&#x5220;&#x9664;&#x5143;&#x7D20;&#x3002;</li>
+<li><code>reverse</code>&#xFF1A;&#x5BF9;&#x4E8E;&#x7F51;&#x683C;&#xFF0C;&#x8FDB;&#x884C;&#x7FFB;&#x8F6C;&#x6CD5;&#x7EBF;&#x64CD;&#x4F5C;&#x3002;&#x5BF9;&#x4E8E;&#x5C3E;&#x8FF9;&#xFF0C;&#x8FDB;&#x884C;&#x5934;&#x5C3E;&#x53CD;&#x5411;&#x64CD;&#x4F5C;&#x3002;</li>
+<li><code>ascend</code>&#xFF1A;&#x4EC5;&#x5BF9;&#x4E8E;&#x7F51;&#x683C;&#xFF0C;&#x8FDB;&#x884C;&#x4E0A;&#x79FB;&#x64CD;&#x4F5C;&#x3002;</li>
+<li><code>descend</code>&#xFF1A;&#x4EC5;&#x5BF9;&#x4E8E;&#x7F51;&#x683C;&#xFF0C;&#x8FDB;&#x884C;&#x4E0B;&#x79FB;&#x64CD;&#x4F5C;&#x3002;</li>
+<li><code>change visibility</code>&#xFF1A;&#x4EC5;&#x5BF9;&#x4E8E;&#x9AA8;&#x9ABC;&#xFF0C;&#x8FDB;&#x884C;&#x8C03;&#x6574;&#x663E;&#x793A;&#x5E27;&#x6570;&#x64CD;&#x4F5C;&#x3002;</li>
+<li><code>change appearance</code>&#xFF1A;&#x4EC5;&#x5BF9;&#x4E8E;&#x6750;&#x8D28;&#xFF0C;&#x8FDB;&#x884C;&#x8BBE;&#x7F6E;&#x989C;&#x8272;&#x64CD;&#x4F5C;&#x3002;</li>
+</ul>
+</li>
+<li><p><code>system call release core protection</code></p>
+<ul>
+<li>&#x9000;&#x51FA;&#x7F16;&#x8F91;&#x5668;&#x7A0B;&#x5E8F;&#x3002;</li>
+</ul>
+</li>
+<li><p><code>system call transfer unit durability point XXX to YYY</code></p>
+<ul>
+<li><code>left to self</code>&#xFF1A;&#x6253;&#x5F00;&#x6587;&#x4EF6;&#x3002;</li>
+<li><code>self to left</code>&#xFF1A;&#x4FDD;&#x5B58;&#x6587;&#x4EF6;&#x3002;</li>
+<li><code>right to self</code>&#xFF1A;&#x5408;&#x5E76;&#x6587;&#x4EF6;&#x3002;</li>
+<li><code>self to right</code>&#xFF1A;&#x5173;&#x95ED;&#x6587;&#x4EF6;&#x3002;</li>
+</ul>
+</li>
+</ul>
+
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="Chapter5.html" class="navigation navigation-prev " aria-label="Previous page: 3ds Max相关内容">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="Share1.html" class="navigation navigation-next " aria-label="Next page: 来自火焰库拉关于ini的分享">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"编辑器的指令系统","level":"1.7","depth":1,"next":{"title":"来自火焰库拉关于ini的分享","level":"1.8","depth":1,"path":"Share1.md","ref":"Share1.md","articles":[]},"previous":{"title":"3ds Max相关内容","level":"1.6","depth":1,"path":"Chapter5.md","ref":"Chapter5.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":[],"pluginsConfig":{"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"Chapter6.md","mtime":"2019-01-19T07:47:58.955Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2019-12-08T14:48:16.879Z"},"basePath":".","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="gitbook/gitbook.js"></script>
+    <script src="gitbook/theme.js"></script>
+    
+        
+        <script src="gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-sharing/buttons.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+

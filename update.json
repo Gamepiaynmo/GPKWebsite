@@ -1,0 +1,85 @@
+{
+    "childs": {
+        "DAT Editor.exe": {
+            "isdir": false,
+            "sha256": "e4c83f874486090f2cb82210d7ab0264a9cf4fcc5c2f3f030a865342751d2c5b",
+            "url": "https://300gpk.site/Files/DAT Editor.exe"
+        },
+        "Dynamic Patch.dll": {
+            "isdir": false,
+            "sha256": "626a1b8c6be169aa48f4078d6f934d83092501dc9c691a92db9b47ad2c8cb607",
+            "url": "https://300gpk.site/Files/Dynamic Patch.dll"
+        },
+        "GPK Generator.exe": {
+            "isdir": false,
+            "sha256": "340e3b49dc469de9f0b5ff9fcefdd509276acc2cf4bba10f49eb87bbac4b13ea",
+            "url": "https://300gpk.site/Files/GPK Generator.exe"
+        },
+        "Patch Manager.exe": {
+            "isdir": false,
+            "sha256": "254235cd7bbd123e1da4cf28791476afa7638857765d8e175b0b16f23419bc88",
+            "url": "https://300gpk.site/Files/Patch Manager.exe"
+        },
+        "Qt5Core.dll": {
+            "isdir": false,
+            "sha256": "a412d7c2b7d4b25f63b8897b4037b8e9aa8aa5899ce90e0ca02b7a0b65c42402",
+            "url": "https://300gpk.site/Files/Qt5Core.dll"
+        },
+        "Qt5Gui.dll": {
+            "isdir": false,
+            "sha256": "9f51d202d77c322e13b6a49ddf663be8ceee659167743af87eece3442d47e818",
+            "url": "https://300gpk.site/Files/Qt5Gui.dll"
+        },
+        "Qt5Network.dll": {
+            "isdir": false,
+            "sha256": "663178951fc5116077055e3e5431f0b2a60e7213cefc078efcfa309fd0425e04",
+            "url": "https://300gpk.site/Files/Qt5Network.dll"
+        },
+        "Qt5Widgets.dll": {
+            "isdir": false,
+            "sha256": "c1ae2210a17fa2aefb879404a6eb26a307495bf578c1a49387be44a2036a2384",
+            "url": "https://300gpk.site/Files/Qt5Widgets.dll"
+        },
+        "Updater.exe.new": {
+            "isdir": false,
+            "sha256": "86127034b787c94239fe68359774cb51fee795280feda76dcdc300429b6b3684",
+            "url": "https://300gpk.site/Files/Updater.exe.new"
+        },
+        "encrypt.fne": {
+            "isdir": false,
+            "sha256": "688faf42c702ebebe09328ee16971475c0c0d1f6f486c13fdb43aa031d87d11c",
+            "url": "https://300gpk.site/Files/encrypt.fne"
+        },
+        "platforms": {
+            "childs": {
+                "qwindows.dll": {
+                    "isdir": false,
+                    "sha256": "9fb913481f8a7b2fba4760ff38d4a1ebacc3fe7955fcb81d6f41f2903bfe8ff9",
+                    "url": "https://300gpk.site/Files/platforms/qwindows.dll"
+                }
+            },
+            "isdir": true
+        },
+        "styles": {
+            "childs": {
+                "qwindowsvistastyle.dll": {
+                    "isdir": false,
+                    "sha256": "406364064d82ec2773f6d48cbe7250d72e8407265e2a2fb50d4be6ad792a868a",
+                    "url": "https://300gpk.site/Files/styles/qwindowsvistastyle.dll"
+                }
+            },
+            "isdir": true
+        },
+        "version.txt": {
+            "isdir": false,
+            "sha256": "2858dcd1057d3eae7f7d5f782167e24b61153c01551450a628cee722509f6529",
+            "url": "https://300gpk.site/Files/version.txt"
+        },
+        "wget.exe": {
+            "isdir": false,
+            "sha256": "32e9cdc62dd035dfd49da7eb3351829fdee95aa6bdb5663ab40f3911ea7cece1",
+            "url": "https://300gpk.site/Files/wget.exe"
+        }
+    },
+    "isdir": true
+}

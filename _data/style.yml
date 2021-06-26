@@ -1,0 +1,8 @@
+#Color Customization
+highlight: "#00a0ff"
+#white: "#FF0000"
+#black: "#000"
+
+#Image Customization
+header-image: "../img/background_color.png"
+contact-image: "../img/background_post_color.png"
