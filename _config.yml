@@ -29,6 +29,7 @@ locale: "zh-CN" # See available languages in _data/sitetext.yml
 
 analytics:
   google: G-BMJQJL4450 #Google Analytics tracking code here
+  baidu: 8cdf3fa4df8ce56253c097f381eef230
 
 collections:
   portfolio:
