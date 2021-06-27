@@ -19,7 +19,7 @@ baseurl: "" # the subpath of your site, e.g. /blog
 
 title      : 次世代 - 300英雄动态补丁
 email      : 300gpk@300gpk.site #this is also the email contact forms will go to
-description: "Agency Bootstrap theme converted to a Jekyll theme, plus new features: Google Analytics, Markdown support, custom pages, and more!"
+description: "动态补丁是一种全新的补丁安装方式，彻底告别老式补丁安装的烦恼！所有补丁自由安装或卸载，无视文件大小限制，随心所欲的新体验！"
 author     : Gamepiaynmo
 logo:     #optional, defaults to site title
   path: assets\img\gpk_logo_square.png
@@ -28,7 +28,7 @@ logo:     #optional, defaults to site title
 locale: "zh-CN" # See available languages in _data/sitetext.yml
 
 analytics:
-  google: #Google Analytics tracking code here
+  google: G-BMJQJL4450 #Google Analytics tracking code here
 
 collections:
   portfolio:
