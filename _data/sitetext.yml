@@ -358,5 +358,7 @@ zh: &DEFAULT_ZH
         title: "棱补丁 - 最懂你的补丁站"
       - url: https://300data.com/
         title: "300英雄补丁站"
+      - url: http://tieba.baidu.com/wxf/11528266?kw=300%E8%8B%B1%E9%9B%84%E8%A1%A5%E4%B8%81&fr=sharewise
+        title: "300英雄补丁吧"
 zh-CN:
   <<: *DEFAULT_ZH
