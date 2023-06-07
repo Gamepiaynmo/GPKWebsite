@@ -326,28 +326,28 @@ zh: &DEFAULT_ZH
     title: 全新的补丁加载方式
     text: 次世代 - 300英雄动态补丁
     button: 软件下载
-    buttonlink: "/download"
+    buttonlink: "./download"
 
   services:
     title: "软件介绍"
     text: "动态补丁是一种全新的补丁安装方式，彻底告别老式补丁安装的烦恼！所有补丁自由安装或卸载，无视文件大小限制，随心所欲的新体验！"
     section: services
     list:
-      - title: "[使用方法 - 玩家篇](/player_guide)"
+      - title: "[使用方法 - 玩家篇](./player_guide)"
         desc: "自由安装与卸载补丁<br>随意启用或禁用补丁<br>支持补丁集安装<br>支持旧PATCH2格式补丁<br>自由调整补丁加载优先级"
         icon: assets\img\sinon.png
-      - title: "[使用方法 - 补丁作者篇](/modder_guide)"
+      - title: "[使用方法 - 补丁作者篇](./modder_guide)"
         desc: "加密补丁和授权补丁<br>一劳永逸的DAT文件修改<br>子补丁选项添加<br>为你的补丁加上预览图与简介"
         icon: assets\img\yoshino.png
-      - title: "[常见问题解答](/faq)"
+      - title: "[常见问题解答](./faq)"
         desc: "使用软件的系统要求<br>丢失MSVCP140.DLL或其他<br>补丁未生效/游戏无法启动<br>错误代码2或4<br>部分补丁安装失败"
         icon: assets\img\bai.png
-      - title: "[JumpX模型编辑工具](/jumpx_editor)"
+      - title: "[JumpX模型编辑工具](./jumpx_editor)"
         desc: "付费版与免费版<br>软件使用教程"
         icon: assets\img\brs.png
 
   footer:
-    legal: "豫ICP备18039831号-1"
+    legal: ""
     social:
       - url: https://jq.qq.com/?_wv=1027&k=MWA2Qkzl
         icon: "fab fa-qq"

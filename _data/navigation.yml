@@ -58,7 +58,7 @@ es-CO:
 zh: &DEFAULT_ZH
   nav:
     - title: "软件下载"
-      url: /download
+      url: ./download
     - title: "软件介绍"
       section: services
 zh-CN:
