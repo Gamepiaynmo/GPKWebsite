@@ -3,59 +3,59 @@
         "DAT Editor.exe": {
             "isdir": false,
             "sha256": "e4c83f874486090f2cb82210d7ab0264a9cf4fcc5c2f3f030a865342751d2c5b",
-            "url": "https://300gpk.site/Files/DAT Editor.exe"
+            "url": "https://gamepiaynmo.github.io/GPKWebsite/Files/DAT Editor.exe"
         },
         "Dynamic Patch.dll": {
             "isdir": false,
             "sha256": "3342e056d8526036abdb50877c5641adb08a030d21785a65d909bf0fd6fc9753",
-            "url": "https://300gpk.site/Files/Dynamic Patch.dll"
+            "url": "https://gamepiaynmo.github.io/GPKWebsite/Files/Dynamic Patch.dll"
         },
         "GPK Generator.exe": {
             "isdir": false,
             "sha256": "340e3b49dc469de9f0b5ff9fcefdd509276acc2cf4bba10f49eb87bbac4b13ea",
-            "url": "https://300gpk.site/Files/GPK Generator.exe"
+            "url": "https://gamepiaynmo.github.io/GPKWebsite/Files/GPK Generator.exe"
         },
         "Patch Manager.exe": {
             "isdir": false,
-            "sha256": "620867ee496c530006718190059d04fb10dfc11316278f2af3591a773a2f8971",
-            "url": "https://300gpk.site/Files/Patch Manager.exe"
+            "sha256": "c965f586bd9bbdf50e5c339dbfb67313d605ad086b2c0b30e983f24ba0514d4c",
+            "url": "https://gamepiaynmo.github.io/GPKWebsite/Files/Patch Manager.exe"
         },
         "Qt5Core.dll": {
             "isdir": false,
             "sha256": "a412d7c2b7d4b25f63b8897b4037b8e9aa8aa5899ce90e0ca02b7a0b65c42402",
-            "url": "https://300gpk.site/Files/Qt5Core.dll"
+            "url": "https://gamepiaynmo.github.io/GPKWebsite/Files/Qt5Core.dll"
         },
         "Qt5Gui.dll": {
             "isdir": false,
             "sha256": "9f51d202d77c322e13b6a49ddf663be8ceee659167743af87eece3442d47e818",
-            "url": "https://300gpk.site/Files/Qt5Gui.dll"
+            "url": "https://gamepiaynmo.github.io/GPKWebsite/Files/Qt5Gui.dll"
         },
         "Qt5Network.dll": {
             "isdir": false,
             "sha256": "663178951fc5116077055e3e5431f0b2a60e7213cefc078efcfa309fd0425e04",
-            "url": "https://300gpk.site/Files/Qt5Network.dll"
+            "url": "https://gamepiaynmo.github.io/GPKWebsite/Files/Qt5Network.dll"
         },
         "Qt5Widgets.dll": {
             "isdir": false,
             "sha256": "c1ae2210a17fa2aefb879404a6eb26a307495bf578c1a49387be44a2036a2384",
-            "url": "https://300gpk.site/Files/Qt5Widgets.dll"
+            "url": "https://gamepiaynmo.github.io/GPKWebsite/Files/Qt5Widgets.dll"
         },
         "Updater.exe.new": {
             "isdir": false,
-            "sha256": "86127034b787c94239fe68359774cb51fee795280feda76dcdc300429b6b3684",
-            "url": "https://300gpk.site/Files/Updater.exe.new"
+            "sha256": "14844351671b2971c13c9220b1ecc2302c53f5d40b674a1467db0f4571b8a500",
+            "url": "https://gamepiaynmo.github.io/GPKWebsite/Files/Updater.exe.new"
         },
         "encrypt.fne": {
             "isdir": false,
             "sha256": "688faf42c702ebebe09328ee16971475c0c0d1f6f486c13fdb43aa031d87d11c",
-            "url": "https://300gpk.site/Files/encrypt.fne"
+            "url": "https://gamepiaynmo.github.io/GPKWebsite/Files/encrypt.fne"
         },
         "platforms": {
             "childs": {
                 "qwindows.dll": {
                     "isdir": false,
                     "sha256": "9fb913481f8a7b2fba4760ff38d4a1ebacc3fe7955fcb81d6f41f2903bfe8ff9",
-                    "url": "https://300gpk.site/Files/platforms/qwindows.dll"
+                    "url": "https://gamepiaynmo.github.io/GPKWebsite/Files/platforms/qwindows.dll"
                 }
             },
             "isdir": true
@@ -65,20 +65,20 @@
                 "qwindowsvistastyle.dll": {
                     "isdir": false,
                     "sha256": "406364064d82ec2773f6d48cbe7250d72e8407265e2a2fb50d4be6ad792a868a",
-                    "url": "https://300gpk.site/Files/styles/qwindowsvistastyle.dll"
+                    "url": "https://gamepiaynmo.github.io/GPKWebsite/Files/styles/qwindowsvistastyle.dll"
                 }
             },
             "isdir": true
         },
         "version.txt": {
             "isdir": false,
-            "sha256": "3e1e967e9b793e908f8eae83c74dba9bcccce6a5535b4b462bd9994537bfe15c",
-            "url": "https://300gpk.site/Files/version.txt"
+            "sha256": "81b8a03f97e8787c53fe1a86bda042b6f0de9b0ec9c09357e107c99ba4d6948a",
+            "url": "https://gamepiaynmo.github.io/GPKWebsite/Files/version.txt"
         },
         "wget.exe": {
             "isdir": false,
             "sha256": "32e9cdc62dd035dfd49da7eb3351829fdee95aa6bdb5663ab40f3911ea7cece1",
-            "url": "https://300gpk.site/Files/wget.exe"
+            "url": "https://gamepiaynmo.github.io/GPKWebsite/Files/wget.exe"
         }
     },
     "isdir": true
