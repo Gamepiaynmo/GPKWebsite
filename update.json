@@ -15,11 +15,6 @@
             "sha256": "340e3b49dc469de9f0b5ff9fcefdd509276acc2cf4bba10f49eb87bbac4b13ea",
             "url": "https://gamepiaynmo.github.io/GPKWebsite/Files/GPK Generator.exe"
         },
-        "GPK.ini": {
-            "isdir": false,
-            "sha256": "3ec48263a811190785e657f4a6cfee777a6248497a79858be2beaf2986925242",
-            "url": "https://gamepiaynmo.github.io/GPKWebsite/Files/GPK.ini"
-        },
         "Patch Manager.exe": {
             "isdir": false,
             "sha256": "c965f586bd9bbdf50e5c339dbfb67313d605ad086b2c0b30e983f24ba0514d4c",
