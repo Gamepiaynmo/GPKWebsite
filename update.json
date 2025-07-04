@@ -1,4 +1,5 @@
 {
+    "isdir": true,
     "childs": {
         "DAT Editor.exe": {
             "isdir": false,
@@ -7,8 +8,13 @@
         },
         "Dynamic Patch.dll": {
             "isdir": false,
-            "sha256": "50f5f21862a592115190f3e52b950eb921c00a2fe018da14138939143216b373",
+            "sha256": "5a4410caa0e218f600d60e5bc219ea92b63db6268c22544862306c5f1cf675fd",
             "url": "https://gamepiaynmo.github.io/GPKWebsite/Files/Dynamic Patch.dll"
+        },
+        "encrypt.fne": {
+            "isdir": false,
+            "sha256": "688faf42c702ebebe09328ee16971475c0c0d1f6f486c13fdb43aa031d87d11c",
+            "url": "https://gamepiaynmo.github.io/GPKWebsite/Files/encrypt.fne"
         },
         "GPK Generator.exe": {
             "isdir": false,
@@ -19,6 +25,16 @@
             "isdir": false,
             "sha256": "c965f586bd9bbdf50e5c339dbfb67313d605ad086b2c0b30e983f24ba0514d4c",
             "url": "https://gamepiaynmo.github.io/GPKWebsite/Files/Patch Manager.exe"
+        },
+        "platforms": {
+            "isdir": true,
+            "childs": {
+                "qwindows.dll": {
+                    "isdir": false,
+                    "sha256": "9fb913481f8a7b2fba4760ff38d4a1ebacc3fe7955fcb81d6f41f2903bfe8ff9",
+                    "url": "https://gamepiaynmo.github.io/GPKWebsite/Files/platforms/qwindows.dll"
+                }
+            }
         },
         "Qt5Core.dll": {
             "isdir": false,
@@ -40,39 +56,24 @@
             "sha256": "c1ae2210a17fa2aefb879404a6eb26a307495bf578c1a49387be44a2036a2384",
             "url": "https://gamepiaynmo.github.io/GPKWebsite/Files/Qt5Widgets.dll"
         },
-        "Updater.exe": {
-            "isdir": false,
-            "sha256": "14844351671b2971c13c9220b1ecc2302c53f5d40b674a1467db0f4571b8a500",
-            "url": "https://gamepiaynmo.github.io/GPKWebsite/Files/Updater.exe"
-        },
-        "encrypt.fne": {
-            "isdir": false,
-            "sha256": "688faf42c702ebebe09328ee16971475c0c0d1f6f486c13fdb43aa031d87d11c",
-            "url": "https://gamepiaynmo.github.io/GPKWebsite/Files/encrypt.fne"
-        },
-        "platforms": {
-            "childs": {
-                "qwindows.dll": {
-                    "isdir": false,
-                    "sha256": "9fb913481f8a7b2fba4760ff38d4a1ebacc3fe7955fcb81d6f41f2903bfe8ff9",
-                    "url": "https://gamepiaynmo.github.io/GPKWebsite/Files/platforms/qwindows.dll"
-                }
-            },
-            "isdir": true
-        },
         "styles": {
+            "isdir": true,
             "childs": {
                 "qwindowsvistastyle.dll": {
                     "isdir": false,
                     "sha256": "406364064d82ec2773f6d48cbe7250d72e8407265e2a2fb50d4be6ad792a868a",
                     "url": "https://gamepiaynmo.github.io/GPKWebsite/Files/styles/qwindowsvistastyle.dll"
                 }
-            },
-            "isdir": true
+            }
+        },
+        "Updater.exe.new": {
+            "isdir": false,
+            "sha256": "14844351671b2971c13c9220b1ecc2302c53f5d40b674a1467db0f4571b8a500",
+            "url": "https://gamepiaynmo.github.io/GPKWebsite/Files/Updater.exe.new"
         },
         "version.txt": {
             "isdir": false,
-            "sha256": "a21855da08cb102d1d217c53dc5824a3a795c1c1a44e971bf01ab9da3a2acbbf",
+            "sha256": "8722616204217eddb39e7df969e0698aed8e599ba62ed2de1ce49b03ade0fede",
             "url": "https://gamepiaynmo.github.io/GPKWebsite/Files/version.txt"
         },
         "wget.exe": {
@@ -80,6 +81,5 @@
             "sha256": "32e9cdc62dd035dfd49da7eb3351829fdee95aa6bdb5663ab40f3911ea7cece1",
             "url": "https://gamepiaynmo.github.io/GPKWebsite/Files/wget.exe"
         }
-    },
-    "isdir": true
+    }
 }

@@ -343,7 +343,7 @@ zh: &DEFAULT_ZH
         desc: "使用软件的系统要求<br>丢失MSVCP140.DLL或其他<br>补丁未生效/游戏无法启动<br>错误代码2或4<br>部分补丁安装失败"
         icon: assets\img\bai.png
       - title: "[JumpX模型编辑工具](./jumpx_editor)"
-        desc: "付费版与免费版<br>软件使用教程"
+        desc: "软件开源链接<br>软件使用教程"
         icon: assets\img\brs.png
 
   footer:
