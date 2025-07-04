@@ -10,7 +10,7 @@ title: JumpX模型编辑工具
 
 JumpX全套工具链已于2023年起完全公开并开源：
 
-https://github.com/Gamepiaynmo/JumpXToolchain
+[https://github.com/Gamepiaynmo/JumpXToolchain](https://github.com/Gamepiaynmo/JumpXToolchain)
 
 其中包括：
 * DAT Editor: DAT (*.dat) 文件编辑器
@@ -21,6 +21,6 @@ https://github.com/Gamepiaynmo/JumpXToolchain
 
 ### 工具使用教程
 
-[点击此处跳转](/jumpxtutor)
+[点击此处跳转](/GPKWebsite/jumpxtutor)
 
 交流QQ群：927566425。
