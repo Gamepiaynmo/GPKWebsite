@@ -8,7 +8,7 @@
         },
         "Dynamic Patch.dll": {
             "isdir": false,
-            "sha256": "5a4410caa0e218f600d60e5bc219ea92b63db6268c22544862306c5f1cf675fd",
+            "sha256": "8a2434991219df9e650e7c94de48d1b23d803e2746f59180b4f54bd22e095fea",
             "url": "https://gamepiaynmo.github.io/GPKWebsite/Files/Dynamic Patch.dll"
         },
         "encrypt.fne": {
@@ -73,7 +73,7 @@
         },
         "version.txt": {
             "isdir": false,
-            "sha256": "8722616204217eddb39e7df969e0698aed8e599ba62ed2de1ce49b03ade0fede",
+            "sha256": "7f2253d7e228b22a08bda1f09c516f6fead81df6536eb02fa991a34bb38d9be8",
             "url": "https://gamepiaynmo.github.io/GPKWebsite/Files/version.txt"
         },
         "wget.exe": {
